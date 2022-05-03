@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    // background-color: $background-color;
+}
+.App {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 2em;
+  min-height: 100vh;
+  position: relative;
+}
+  
+.App-header {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+}
+
+  
