@@ -20,10 +20,6 @@ class Nav extends Component {
   </nav>)
   }
 }
-{/* <nav className="nav">
-    <Link rel="stylesheet" href="" to='/' className="links">Home</Link>
-    <Link rel="stylesheet" href="" to='/form' className="links">form</Link>
-    <Link rel="stylesheet" href="" to='/listnews' className="links">list</Link>
-    </nav>; */}
+
 
 export default Nav;
