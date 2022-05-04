@@ -7,7 +7,7 @@ class ListNews extends Component {
     super(props);
     this.state = {
       ListNews: this.props.defaultList,
-      News: []
+      News: this.props.List
     }
 
   }
@@ -24,12 +24,10 @@ class ListNews extends Component {
           image: article.multimedia[0].url,
           url: article.web_url
       }
-  })
-  this.setState({ListNews:requireData});
-  
-  this.updateNews = (News) => {
-    this.setState({ListNews: [...requireData, News]});
-  }
+    })
+    
+    this.setState({ ListNews: [...requireData, ...this.state.News] });
+
   }
 
   render() {

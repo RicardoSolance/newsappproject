@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-import ListNews from "./ListNews";
+// import ListNews from "./ListNews";
+
 
 class Home extends Component {
+  
   render() {
     return <section className="home">
-        <ListNews/>
+      {/* <ListNews /> */}
+      <h2>Esta es la home</h2>
     </section>;
   }
 }

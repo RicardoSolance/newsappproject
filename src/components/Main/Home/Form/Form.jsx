@@ -27,6 +27,7 @@ class Form extends Component {
     }
 
     this.props.updateNews(News)
+    this.setState({ redirect: true });
     this.setState({ mynews: News });
   }
  
