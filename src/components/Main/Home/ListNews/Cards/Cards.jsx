@@ -7,7 +7,7 @@ class Cards extends Component {
     
     return (
       <Card style={{ width: '26rem', margin: 5 }}>
-          <Card.Img variant="top" src={`https://static01.nyt.com/${image}`}  />
+          <Card.Img variant="top" src={image}/>
           <Card.Body>
               <Card.Title>{ title}</Card.Title>
               <Card.Text>
