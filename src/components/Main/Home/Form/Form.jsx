@@ -11,7 +11,7 @@ class Form extends Component {
        redirect: false
       
      }
-     this.handleSubmit.bind(this);
+    
    }
 
   handleSubmit = (e) => {
