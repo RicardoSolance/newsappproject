@@ -9,7 +9,7 @@ class ListNews extends Component {
       ListNews: this.props.defaultList,
       News: []
     }
-    this.updateNews.bind(this);
+
   }
   async componentDidMount(){
     // const APIKEY = process.env.REACT_APP_API_KEY;
