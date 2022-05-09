@@ -6,8 +6,8 @@ class ListNews extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      ListNews: this.props.defaultList,
-      News: this.props.List
+      ListNews: this.props.List,
+      // News: this.props.List
     }
 
   }
@@ -27,7 +27,7 @@ class ListNews extends Component {
       }
     })
     
-    this.setState({ ListNews: [...requireData, ...this.state.News] });
+    this.setState({ ListNews: [...requireData, ...this.state.ListNews] });//spread operator
 
   }
 
